@@ -1,0 +1,41 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.info-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.info-container h4 {
+  margin: 0;
+}
+
+.button-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.skills-container {
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 10px;
+}
+
+.skills-container h4 {
+  margin-bottom: 5px;
+}
+
+.skills-container ul {
+  display: grid;
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-container li {
+  margin-bottom: 5px;
+}
