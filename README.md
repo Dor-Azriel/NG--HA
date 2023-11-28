@@ -16,7 +16,7 @@ Web project allowing users to upload resume PDF files, which are then parsed and
 
     ```shell
     git clone https://github.com/Dor-Azriel/NGsoft--HA
-    cd your-repo
+    cd NGsoft--HA
     ```
 
 2. Install dependencies:
@@ -25,7 +25,7 @@ Web project allowing users to upload resume PDF files, which are then parsed and
     npm install
     ```
 
-3. Create a `.env` file in the root directory and add the following environment variables:
+3. You don't need to create a `.env` file in the root directory. Following environment variables are included in the `Logic.js` and `server.js` files:
 
     ```env
     REACT_APP_API_URL=http://127.0.0.1:8000
@@ -34,7 +34,7 @@ Web project allowing users to upload resume PDF files, which are then parsed and
 
 ## Running the Application
 
-1. Start the Node.js server:
+1. Navigate to the `backend` directory and start the Node.js server:
 
     ```shell
     npm run server
@@ -56,6 +56,13 @@ Provide instructions for running tests here.
 
 Include instructions for deploying the project to a production environment, if applicable.
 
+## Project Structure
+
+The project consists of two main directories:
+
+- `backend`: Contains the server-side logic and API.
+- `frontend`: Houses the React.js frontend application.
+
 ## Built With
 
 - React - JavaScript framework for building user interfaces
@@ -64,4 +71,4 @@ Include instructions for deploying the project to a production environment, if a
 
 ## License
 
-This project is licensed under the [Your License] - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
