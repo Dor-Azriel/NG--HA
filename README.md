@@ -15,7 +15,7 @@ Web project allowing users to upload resume PDF files, which are then parsed and
 1. Clone the repository:
 
     ```shell
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/Dor-Azriel/NGsoft--HA
     cd your-repo
     ```
 

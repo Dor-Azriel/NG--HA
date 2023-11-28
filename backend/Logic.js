@@ -128,7 +128,6 @@ const deleteFile = (filePath) => {
 
 
 
-// Function to check if an IP address is valid
 
 // Function to check if a string contains only letters
 const isStringOnlyLetters = (str) => /^[a-zA-Z]+$/.test(str.trim());
